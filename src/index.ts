@@ -13,9 +13,9 @@ const defaultOptions = {
   token: ''
 };
 
-function factory ( options? ) {
+function factory ( customOptions?: Partial<typeof defaultOptions> ) {
 
-  options = Object.assign ( {}, defaultOptions, options );
+  const options = Object.assign ( {}, defaultOptions, customOptions );
 
   async function githubSyncKeywords ( config, repoPath, ctx, task ) {
 
