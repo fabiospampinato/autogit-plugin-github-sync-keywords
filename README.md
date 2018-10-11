@@ -1,6 +1,6 @@
 # Autogit Plugin - Github Sync Keywords
 
-A plugin for synching the keywords with GitHub.
+A plugin for synchronizing the keywords with GitHub.
 
 ## Install
 
