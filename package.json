@@ -1,7 +1,7 @@
 {
   "name": "autogit-plugin-github-sync-keywords",
   "description": "A plugin for synchronizing the keywords with GitHub.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {

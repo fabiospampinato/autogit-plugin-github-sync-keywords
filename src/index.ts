@@ -39,7 +39,7 @@ function factory ( customOptions?: Partial<typeof defaultOptions> ) {
 
     try {
 
-      const topics = await github.repos.getTopics ({ owner, repo: name });
+      const topics = await github.repos['getTopics']({ owner, repo: name }); //TSC
 
       if ( _.isEqual ( topics.data.names, keywords ) ) return task.skip ( 'No need to update the keywords' );
 
